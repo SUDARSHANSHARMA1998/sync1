@@ -1,16 +1,20 @@
 {
 	"info": {
-		"_postman_id": "3489c519-3d64-4887-b7cf-7b3fd3340f8a",
+		"_postman_id": "9d4b706f-d460-47f6-b56e-984d8d3489b6",
 		"name": "asd",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "889639"
+		"_uid": "154688-9d4b706f-d460-47f6-b56e-984d8d3489b6"
 	},
 	"item": [
 		{
 			"name": "New Request",
+			"id": "07a0717c-4891-4348-925e-abb4e3741a75",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": ""
+				}
 			},
 			"response": []
 		}
