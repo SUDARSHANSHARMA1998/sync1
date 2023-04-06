@@ -16,7 +16,7 @@ servers:
   - url: https://maps.googleapis.com
 tags:
   - Places API
-description: The Places API is aSDFSDFSDF service that returns information about places using HTTP requests. Places are defined within this API as establishments, geographic locations, or prominent points of interest.
+description: The Places API is a service that returns information about places using HTTP requests. Places are defined within this API as establishments, geographic locations, or prominent points of interest.
 parameters:
   - "$ref": "../../parameters/places/place_id.yml"
   - "$ref": "../../parameters/places/fields.yml"
