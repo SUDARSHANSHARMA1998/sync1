@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "587d466e-88c8-4e32-ad42-8eb91fd49fc3",
+		"_postman_id": "ac58c22a-2c94-4670-b6ae-3508ffd42b29",
 		"name": "G10",
 		"description": "API Specification for Google Maps Platform",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "154688-587d466e-88c8-4e32-ad42-8eb91fd49fc3"
+		"_uid": "154688-ac58c22a-2c94-4670-b6ae-3508ffd42b29"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 					"item": [
 						{
 							"name": "This service returns the best-fit road geometry for a given set of GPS coordinates. This service takes up to 100 GPS points collected along a route, and returns a similar set of data with the points snapped to the most likely roads the vehicle was traveli",
-							"id": "6dbfa839-601c-43f6-af3a-022b6ecc8dbf",
+							"id": "9fb43e86-a6af-4d83-8e40-91f390494380",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -56,7 +56,7 @@
 							},
 							"response": [
 								{
-									"id": "766971a0-a124-4fa7-bd81-e0405dddfe22",
+									"id": "afad6d3a-c530-42d8-b1ab-eefa5b04807f",
 									"name": "200 OK",
 									"originalRequest": {
 										"method": "GET",
@@ -96,6 +96,7 @@
 									"status": "OK",
 									"code": 200,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -108,14 +109,14 @@
 							]
 						}
 					],
-					"id": "bd61163b-3051-459c-8d03-f2473d7cece8"
+					"id": "44d2dadc-8477-49dd-93a3-0bbf48aa38ac"
 				},
 				{
 					"name": "nearestRoads",
 					"item": [
 						{
 							"name": "This service returns individual road segments for a given set of GPS coordinates. This services takes up to 100 GPS points and returns the closest road segment for each point. The points passed do not need to be part of a continuous path.",
-							"id": "697fb339-06c3-45aa-ac52-9638e7736d17",
+							"id": "7779f2d3-4a14-4682-9c29-bdd89c3916bd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -151,7 +152,7 @@
 							},
 							"response": [
 								{
-									"id": "55337dae-f6c4-45f4-bd00-df3c81ea2f67",
+									"id": "ccabe6eb-d902-4108-86d9-19a0edd6c936",
 									"name": "200 OK",
 									"originalRequest": {
 										"method": "GET",
@@ -186,6 +187,7 @@
 									"status": "OK",
 									"code": 200,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -196,7 +198,7 @@
 									"body": "{\n  \"snappedPoints\": [\n    {\n      \"location\": {\n        \"latitude\": \"<number>\",\n        \"longitude\": \"<number>\"\n      },\n      \"placeId\": \"<string>\",\n      \"originalIndex\": \"<number>\"\n    },\n    {\n      \"location\": {\n        \"latitude\": \"<number>\",\n        \"longitude\": \"<number>\"\n      },\n      \"placeId\": \"<string>\",\n      \"originalIndex\": \"<number>\"\n    }\n  ]\n}"
 								},
 								{
-									"id": "0030ea0e-51db-464c-8553-d85062c4d396",
+									"id": "2649c22b-5abb-4506-8007-e1a083496ff9",
 									"name": "400 BAD REQUEST",
 									"originalRequest": {
 										"method": "GET",
@@ -231,6 +233,7 @@
 									"status": "Bad Request",
 									"code": 400,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -243,10 +246,10 @@
 							]
 						}
 					],
-					"id": "dbbb8a1c-dce4-4583-b08e-6f7034b78faa"
+					"id": "c00f0a04-9858-4048-98ff-42472ed611e0"
 				}
 			],
-			"id": "2e32bb43-f11e-4d4b-ad3c-f4e8181a9e69"
+			"id": "5a4fe7c0-9180-4fdd-a4e3-dd8637e4799a"
 		},
 		{
 			"name": "maps",
@@ -262,7 +265,7 @@
 									"item": [
 										{
 											"name": "The Time Zone API provides a simple interface to request the time zone for locations on the surface of the earth, as well as the time offset from UTC for each of those locations. You request the time zone information for a specific latitude/longitude pair",
-											"id": "d885072f-9148-4ad0-8558-55d436720570",
+											"id": "5906a93e-e529-4052-987c-87983564eb57",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -310,7 +313,7 @@
 											},
 											"response": [
 												{
-													"id": "f255e9eb-302d-4bc6-8d7c-9cd49c32a0d0",
+													"id": "ed9262d2-cf60-4c03-b8ae-0a6d7e454c4f",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -357,6 +360,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -369,10 +373,10 @@
 											]
 										}
 									],
-									"id": "3f9e9cd7-60d6-41af-ab40-078e3c712d09"
+									"id": "4ee25149-3b01-41ac-b8a1-b490f8782494"
 								}
 							],
-							"id": "b264d753-628d-4222-99a6-9e679a6c862a"
+							"id": "366bb7eb-b98a-41f4-9267-30d33b64eba4"
 						},
 						{
 							"name": "streetview",
@@ -382,7 +386,7 @@
 									"item": [
 										{
 											"name": "The Street View Static API metadata requests provide data about Street View panoramas. Using the metadata, you can find out if a Street View image is available at a given location, as well as getting programmatic access to the latitude and longitude, the ",
-											"id": "98a355aa-ba27-44e8-a6a1-a4a87eca7ab8",
+											"id": "ae31dbb9-0279-4657-85c9-6f6c2043bfb1",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -460,7 +464,7 @@
 											},
 											"response": [
 												{
-													"id": "f7bc91af-5663-4587-b4d3-cea522fbe0ec",
+													"id": "51be0ac3-cf86-44d8-a883-e21566942aec",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -537,6 +541,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -549,11 +554,11 @@
 											]
 										}
 									],
-									"id": "b6781b19-7171-435a-9ee4-916e748b345a"
+									"id": "8b5ee3f9-1ed4-4a60-953d-3f2c87620fda"
 								},
 								{
 									"name": "The Street View Static API lets you embed a static (non-interactive) Street View panorama or thumbnail into your web page, without the use of JavaScript. The viewport is defined with URL parameters sent through a standard HTTP request, and is returned as ",
-									"id": "35f4d424-f791-4650-bae2-18aaa6b34524",
+									"id": "7ba97507-1248-40cc-ac24-cfe0d60ff9d5",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -635,7 +640,7 @@
 									},
 									"response": [
 										{
-											"id": "f6560baa-f744-45df-a925-5fef69e41ca1",
+											"id": "d4742cad-6f80-4bbe-a2ca-7b210bc91262",
 											"name": "200 OK",
 											"originalRequest": {
 												"method": "GET",
@@ -716,6 +721,7 @@
 											"status": "OK",
 											"code": 200,
 											"_postman_previewlanguage": "text",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -728,7 +734,7 @@
 									]
 								}
 							],
-							"id": "f987b45f-211f-458f-b450-57c0af442ac3"
+							"id": "f73bad28-eb4d-4ddb-9822-9cb6830715b0"
 						},
 						{
 							"name": "place",
@@ -741,7 +747,7 @@
 											"item": [
 												{
 													"name": "The Google Places API Text Search Service is a web service that returns information about a set of places based on a string — for example \"pizza in New York\" or \"shoe stores near Ottawa\" or \"123 Main Street\". The service responds with a list of places mat",
-													"id": "cdc1ff26-3e60-4beb-be60-ab2cc5c3b7ce",
+													"id": "dfd16d09-533b-4549-9601-2b980f2ec5dd",
 													"protocolProfileBehavior": {
 														"disableBodyPruning": true
 													},
@@ -825,7 +831,7 @@
 													},
 													"response": [
 														{
-															"id": "63b7869c-ae87-47ab-b383-dccacbeafc23",
+															"id": "a327c89c-565c-41bb-8b11-2c13f1b8f4e4",
 															"name": "200 OK",
 															"originalRequest": {
 																"method": "GET",
@@ -908,6 +914,7 @@
 															"status": "OK",
 															"code": 200,
 															"_postman_previewlanguage": "json",
+															"_postman_previewtype": "html",
 															"header": [
 																{
 																	"key": "Content-Type",
@@ -920,10 +927,10 @@
 													]
 												}
 											],
-											"id": "4bdcba6f-ab63-49d1-b49a-b44c9daa34ee"
+											"id": "093aeea3-ff91-425f-a68a-abd06ac3bc0d"
 										}
 									],
-									"id": "1106413e-b6d0-4847-ae2a-e10f5f6012cc"
+									"id": "49413f44-c78c-4a44-b964-fce3efc29086"
 								},
 								{
 									"name": "queryautocomplete",
@@ -933,7 +940,7 @@
 											"item": [
 												{
 													"name": "The Query Autocomplete service can be used to provide a query prediction for text-based geographic searches, by returning suggested queries as you type.\n\nThe Query Autocomplete service allows you to add on-the-fly geographic query predictions to your appl",
-													"id": "9a2b8496-f711-4ccc-83c4-ea8cf55de27f",
+													"id": "f858680e-dee3-47f3-8145-d4e6ce684e44",
 													"protocolProfileBehavior": {
 														"disableBodyPruning": true
 													},
@@ -992,7 +999,7 @@
 													},
 													"response": [
 														{
-															"id": "46b033ab-f84d-4e5e-a7bb-7ed0ceab05cd",
+															"id": "60d9ee57-98f4-43c5-870e-0053c420247b",
 															"name": "200 OK",
 															"originalRequest": {
 																"method": "GET",
@@ -1050,6 +1057,7 @@
 															"status": "OK",
 															"code": 200,
 															"_postman_previewlanguage": "json",
+															"_postman_previewtype": "html",
 															"header": [
 																{
 																	"key": "Content-Type",
@@ -1062,17 +1070,17 @@
 													]
 												}
 											],
-											"id": "c07586bb-7abd-4cef-80f2-e1b6789012fb"
+											"id": "2458985f-2818-46da-bc52-f6b0a8ff0ce1"
 										}
 									],
-									"id": "d8a35c9a-fbb6-4004-9a7d-5592b540f739"
+									"id": "cf21bf1f-1808-4597-a332-7b0c59054848"
 								},
 								{
 									"name": "photo",
 									"item": [
 										{
 											"name": "The Place Photo service, part of the Places API, is a read- only API that allows you to add high quality photographic content to your application. The Place Photo service gives you access to the millions of photos stored in the Places database. When you g",
-											"id": "48dbd451-498d-42b7-931e-b510c522ce20",
+											"id": "ea692652-e0f4-4f74-82d9-e4a514ecb094",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -1120,7 +1128,7 @@
 											},
 											"response": [
 												{
-													"id": "df8bfcfa-a02f-4ef7-9ad0-4b94d44ebe24",
+													"id": "e07fcb06-2ca9-4a6f-9c02-191eb26d9431",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -1167,6 +1175,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "text",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -1179,7 +1188,7 @@
 											]
 										}
 									],
-									"id": "a6d5613e-50f1-4284-84f4-5a5ff45a63c9"
+									"id": "96fd5090-c757-4945-a95f-d4e947b0d111"
 								},
 								{
 									"name": "nearbysearch",
@@ -1189,7 +1198,7 @@
 											"item": [
 												{
 													"name": "A Nearby Search lets you search for places within a specified area. You can refine your search request by supplying keywords or specifying the type of place you are searching for.",
-													"id": "89050f50-851e-430c-b914-5ad31e1ac390",
+													"id": "32e73fb9-5324-4660-b87c-750de34acee1",
 													"protocolProfileBehavior": {
 														"disableBodyPruning": true
 													},
@@ -1278,7 +1287,7 @@
 													},
 													"response": [
 														{
-															"id": "3db8363f-ae54-4e6b-a0b2-0f6d68dc9b3e",
+															"id": "10a10493-75b7-4869-aff2-2509676d972b",
 															"name": "200 OK",
 															"originalRequest": {
 																"method": "GET",
@@ -1366,6 +1375,7 @@
 															"status": "OK",
 															"code": 200,
 															"_postman_previewlanguage": "json",
+															"_postman_previewtype": "html",
 															"header": [
 																{
 																	"key": "Content-Type",
@@ -1378,10 +1388,10 @@
 													]
 												}
 											],
-											"id": "decc4f41-e3f9-46ab-864a-1545274d7e18"
+											"id": "2235366a-b07a-4ff0-8710-6603fee870e5"
 										}
 									],
-									"id": "dc86de99-a253-4e6b-b757-e78407a04cf0"
+									"id": "240137e7-5353-46e4-9459-30c04b7b108d"
 								},
 								{
 									"name": "findplacefromtext",
@@ -1391,7 +1401,7 @@
 											"item": [
 												{
 													"name": "A Find Place request takes a text input and returns a place. The input can be any kind of Places text data, such as a name, address, or phone number. The request must be a string. A Find Place request using non-string data such as a lat/lng coordinate or ",
-													"id": "0aba358a-d5d7-4cb9-b9e9-a2ed220fe511",
+													"id": "1396632d-7086-452f-b18f-c1b43bec7576",
 													"protocolProfileBehavior": {
 														"disableBodyPruning": true
 													},
@@ -1450,7 +1460,7 @@
 													},
 													"response": [
 														{
-															"id": "4c1a89d0-8a4f-4c49-a7f9-163067a0b125",
+															"id": "876281fb-7e34-42c5-b3cf-fca8506bdc03",
 															"name": "200 OK",
 															"originalRequest": {
 																"method": "GET",
@@ -1508,6 +1518,7 @@
 															"status": "OK",
 															"code": 200,
 															"_postman_previewlanguage": "json",
+															"_postman_previewtype": "html",
 															"header": [
 																{
 																	"key": "Content-Type",
@@ -1520,10 +1531,10 @@
 													]
 												}
 											],
-											"id": "4546f939-3a9d-4fcd-a822-c0835b570569"
+											"id": "6610eb3f-91b9-440b-b2fe-23ba53b0701c"
 										}
 									],
-									"id": "e22ab076-92df-4f05-87db-fe60aa9edc77"
+									"id": "95514cbd-970f-4402-859b-c4845754cd7a"
 								},
 								{
 									"name": "details",
@@ -1533,7 +1544,7 @@
 											"item": [
 												{
 													"name": "The Places API is a service that returns information about places using HTTP requests. Places are defined within this API as establishments, geographic locations, or prominent points of interest.",
-													"id": "a66bfacd-fc2e-4739-a9be-6cc13b3fabd8",
+													"id": "af3fbaaa-eed4-486a-baa6-9a63ed6201a4",
 													"protocolProfileBehavior": {
 														"disableBodyPruning": true
 													},
@@ -1602,7 +1613,7 @@
 													},
 													"response": [
 														{
-															"id": "38f28cee-648a-4ee4-9861-835c1b32c7a5",
+															"id": "80acb0e4-431a-4d1c-89a6-bbef37357eb5",
 															"name": "200 OK",
 															"originalRequest": {
 																"method": "GET",
@@ -1670,6 +1681,7 @@
 															"status": "OK",
 															"code": 200,
 															"_postman_previewlanguage": "json",
+															"_postman_previewtype": "html",
 															"header": [
 																{
 																	"key": "Content-Type",
@@ -1682,10 +1694,10 @@
 													]
 												}
 											],
-											"id": "615e2123-6bcd-460f-adc9-ab14570f2f5f"
+											"id": "6fc8f5cb-422b-4084-8017-31f7abb67222"
 										}
 									],
-									"id": "1d57b434-6c09-4e7a-9bfb-0cee62e5c4a8"
+									"id": "9acb448a-25ae-44fa-8976-dbec1583e383"
 								},
 								{
 									"name": "autocomplete",
@@ -1695,7 +1707,7 @@
 											"item": [
 												{
 													"name": "The Place Autocomplete service is a web service that returns place predictions in response to an HTTP request. The request specifies a textual search string and optional geographic bounds. The service can be used to provide autocomplete functionality for ",
-													"id": "5e3474be-2a73-48fd-84bb-b52339a3a1e4",
+													"id": "99337ed1-7d36-4e9f-bc84-3a04d717b801",
 													"protocolProfileBehavior": {
 														"disableBodyPruning": true
 													},
@@ -1789,7 +1801,7 @@
 													},
 													"response": [
 														{
-															"id": "72ed29db-b95f-4e18-9a9d-104669ffd03f",
+															"id": "d14d4412-a054-49fa-a235-0d6eb143c8e7",
 															"name": "200 OK",
 															"originalRequest": {
 																"method": "GET",
@@ -1882,6 +1894,7 @@
 															"status": "OK",
 															"code": 200,
 															"_postman_previewlanguage": "json",
+															"_postman_previewtype": "html",
 															"header": [
 																{
 																	"key": "Content-Type",
@@ -1894,13 +1907,13 @@
 													]
 												}
 											],
-											"id": "39c30b42-ee1f-4be5-8082-935ca15475ff"
+											"id": "065031da-d057-4058-b7d4-f80076cda132"
 										}
 									],
-									"id": "7555b0ad-9945-4f74-8d01-78e3790d490b"
+									"id": "7327648c-3572-458a-854b-e9fb8dbcc759"
 								}
 							],
-							"id": "4887a6a0-6e2e-4bda-b6a4-01f26a3e03d2"
+							"id": "36daadcd-9028-4b6e-aecb-03cd850935b7"
 						},
 						{
 							"name": "geocode",
@@ -1910,7 +1923,7 @@
 									"item": [
 										{
 											"name": "The Geocoding API is a service that provides geocoding and reverse geocoding of addresses.\n\n**Geocoding** is the process of converting addresses (like a street address) into geographic coordinates (like latitude and longitude), which you can use to place ",
-											"id": "758dc422-d58c-4528-9754-f6878bef468c",
+											"id": "0e5bc882-597c-4a7f-85ea-b29dd065579d",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -1993,7 +2006,7 @@
 											},
 											"response": [
 												{
-													"id": "c45917d7-1dd3-4c96-a503-7af5b53575bf",
+													"id": "4c349f3a-4c55-43a2-aca6-2a61b27d6844",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -2075,6 +2088,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -2087,10 +2101,10 @@
 											]
 										}
 									],
-									"id": "8fcf836a-aad7-45da-991f-284eea9523e7"
+									"id": "6ab5a22d-541b-49b5-ad33-ed4e2131a2bd"
 								}
 							],
-							"id": "71352b2e-fa1c-446c-8fb3-bb525a5d2edc"
+							"id": "8e3da33b-5b7f-4362-9834-9bcfc1fb200d"
 						},
 						{
 							"name": "elevation",
@@ -2100,7 +2114,7 @@
 									"item": [
 										{
 											"name": "The Elevation API provides a simple interface to query locations on the earth for elevation data. Additionally, you may request sampled elevation data along paths, allowing you to calculate elevation changes along routes. With the Elevation API, you can d",
-											"id": "1f4c44ba-5645-4a84-bf2d-ea166534f7db",
+											"id": "c5a18b91-8eee-4f58-918a-8c5f509ce88f",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -2148,7 +2162,7 @@
 											},
 											"response": [
 												{
-													"id": "244e9969-fbf5-48f8-93ce-84ec818dfd7e",
+													"id": "6b80d074-1dfe-43dc-9861-145e81fcdb47",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -2195,6 +2209,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -2207,10 +2222,10 @@
 											]
 										}
 									],
-									"id": "408d6717-5db2-4c75-bb01-e8d576c42c13"
+									"id": "4c95a9ef-44d9-4bcf-b9a6-af13b98c669f"
 								}
 							],
-							"id": "ccc408a0-fc78-4947-a6f6-4d62ac474364"
+							"id": "d48eb48d-d16a-4dcb-9bf4-8870bce8f16c"
 						},
 						{
 							"name": "distancematrix",
@@ -2220,7 +2235,7 @@
 									"item": [
 										{
 											"name": "The Distance Matrix API is a service that provides travel distance and time for a matrix of origins and destinations. The API returns information based on the recommended route between start and end points, as calculated by the Google Maps API, and consis",
-											"id": "0994dffc-1991-4bc2-8d54-7960553f672c",
+											"id": "4b8bd320-278a-49cc-b1bc-311a5ea31a7a",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -2313,7 +2328,7 @@
 											},
 											"response": [
 												{
-													"id": "d236453b-d918-4616-bd81-6d355ef8593d",
+													"id": "ba2c65f9-f51f-4672-921c-d77cc47cdafd",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -2405,6 +2420,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -2417,10 +2433,10 @@
 											]
 										}
 									],
-									"id": "c57402fc-0904-4128-b4ec-9f37673e4b7f"
+									"id": "2a856d7a-6817-4e35-8186-85b0d8184ee4"
 								}
 							],
-							"id": "1d0262bb-ca56-4167-9210-90e9b216066f"
+							"id": "5ba070cb-1e3f-4b33-9967-fc7aa429cdb0"
 						},
 						{
 							"name": "directions",
@@ -2430,7 +2446,7 @@
 									"item": [
 										{
 											"name": "The Directions API is a web service that uses an HTTP request to return JSON or XML-formatted directions between locations. You can receive directions for several modes of transportation, such as transit, driving, walking, or cycling.",
-											"id": "df2e08c4-9d37-4c9f-a376-3d6867d75f44",
+											"id": "c77c400d-fa61-40f5-95a3-3e10389dafa6",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -2533,7 +2549,7 @@
 											},
 											"response": [
 												{
-													"id": "9ea46315-9a22-4a3d-a28e-6e01b45d4b2a",
+													"id": "9156f049-4226-47f8-b519-b8a3a7184e44",
 													"name": "200 OK",
 													"originalRequest": {
 														"method": "GET",
@@ -2635,6 +2651,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -2647,16 +2664,16 @@
 											]
 										}
 									],
-									"id": "7429eae9-2835-404f-a513-6db90beffaff"
+									"id": "3e8286cc-f795-4d1c-aea7-1a2872c27262"
 								}
 							],
-							"id": "b1e7aa6d-b01c-4cc9-91f7-4d5de0c97ba2"
+							"id": "18fcb823-0100-496b-823b-f1bd67a66e97"
 						}
 					],
-					"id": "0363834c-4870-41f3-a03a-0266e8f04889"
+					"id": "7a918f37-5e16-4983-9b42-ba8bf5e2e2d1"
 				}
 			],
-			"id": "53c84edd-5188-4a8a-9277-839438a245fd"
+			"id": "92208585-fb8d-44c8-9de1-6eac2811ee06"
 		},
 		{
 			"name": "geolocation",
@@ -2669,7 +2686,7 @@
 							"item": [
 								{
 									"name": "Geolocation API returns a location and accuracy radius based on information about cell towers and WiFi nodes that the mobile client can detect. This document describes the protocol used to send this data to the server and to return a response to the clien",
-									"id": "b048cac4-7f46-4a37-86b2-b0e1e5e49e58",
+									"id": "464d3c29-d27d-4397-9a8f-43b442f775fe",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2713,7 +2730,7 @@
 									},
 									"response": [
 										{
-											"id": "44e28445-5cad-45f5-ab35-febc0d9d3d23",
+											"id": "af1ba992-ab1d-4434-b1d4-7ed550659067",
 											"name": "200 OK",
 											"originalRequest": {
 												"method": "POST",
@@ -2756,6 +2773,7 @@
 											"status": "OK",
 											"code": 200,
 											"_postman_previewlanguage": "json",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -2766,7 +2784,7 @@
 											"body": "{\n  \"location\": {\n    \"lat\": \"<number>\",\n    \"lng\": \"<number>\"\n  },\n  \"accuracy\": \"<number>\"\n}"
 										},
 										{
-											"id": "ff139aa8-c096-4b07-b6df-3a09a79098ff",
+											"id": "fc340b2d-696c-41d0-93e9-5915cd7757c1",
 											"name": "400 BAD REQUEST",
 											"originalRequest": {
 												"method": "POST",
@@ -2809,6 +2827,7 @@
 											"status": "Bad Request",
 											"code": 400,
 											"_postman_previewlanguage": "json",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -2819,7 +2838,7 @@
 											"body": "{\n  \"error\": {\n    \"code\": \"<number>\",\n    \"message\": \"<string>\",\n    \"errors\": [\n      {\n        \"@type\": \"<string>\",\n        \"message\": \"<string>\",\n        \"reason\": \"<string>\",\n        \"domain\": \"<string>\",\n        \"metadata\": {},\n        \"fieldViolations\": [\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          },\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"<string>\",\n        \"message\": \"<string>\",\n        \"reason\": \"<string>\",\n        \"domain\": \"<string>\",\n        \"metadata\": {},\n        \"fieldViolations\": [\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          },\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          }\n        ]\n      }\n    ],\n    \"status\": \"<string>\",\n    \"details\": [\n      {\n        \"@type\": \"<string>\",\n        \"message\": \"<string>\",\n        \"reason\": \"<string>\",\n        \"domain\": \"<string>\",\n        \"metadata\": {},\n        \"fieldViolations\": [\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          },\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"<string>\",\n        \"message\": \"<string>\",\n        \"reason\": \"<string>\",\n        \"domain\": \"<string>\",\n        \"metadata\": {},\n        \"fieldViolations\": [\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          },\n          {\n            \"field\": \"<string>\",\n            \"description\": \"<string>\"\n          }\n        ]\n      }\n    ]\n  }\n}"
 										},
 										{
-											"id": "65f56685-c391-4f4d-9854-5fa69189a7d9",
+											"id": "56914094-7199-4531-91cf-61b3eca5cf33",
 											"name": "404 NOT FOUND",
 											"originalRequest": {
 												"method": "POST",
@@ -2862,6 +2881,7 @@
 											"status": "Not Found",
 											"code": 404,
 											"_postman_previewlanguage": "json",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -2874,13 +2894,13 @@
 									]
 								}
 							],
-							"id": "6ddf1cdb-acdb-436e-916f-a7e722016b90"
+							"id": "e82efbd5-50ff-4e0c-bd69-69707f4b60ce"
 						}
 					],
-					"id": "c903c4a1-3c9e-4475-a489-3bae5fbd9b80"
+					"id": "37d8fafd-737f-4492-b694-d0c58584a8cc"
 				}
 			],
-			"id": "2ccaa2b2-ed78-4251-ad53-ea82e044f27b"
+			"id": "b70a4e18-e0d8-4af2-9a44-ddaa2ad28a2f"
 		}
 	],
 	"auth": {
